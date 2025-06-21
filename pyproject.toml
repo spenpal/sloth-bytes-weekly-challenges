@@ -1,0 +1,55 @@
+[project]
+name = "sloth-bytes-weekly-challenges"
+version = "0.1.0"
+description = "Solutions to the weekly challenges from the Sloth Bytes newsletter."
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = []
+
+[tool.ruff.lint]
+select = ["ALL"]
+ignore = [
+    "ANN001",   # missing-type-function-argument
+    "ANN202",   # missing-return-type-private-function
+    "B905",     # zip-without-explicit-strict
+    "C901",     # complex-structure
+    "COM812",   # missing-trailing-comma
+    "COM819",   # prohibited-trailing-comma
+    "D1",       # missing-docstrings
+    "D206",     # indent-with-spaces
+    "D300",     # triple-single-quotes
+    "E111",     # indentation-with-invalid-multiple
+    "E114",     # indentation-with-invalid-multiple-comment
+    "E117",     # over-indented
+    "E501",     # line-too-long
+    "ERA001",   # commented-out-code
+    "F403",     # undefined-local-with-import-star
+    "FBT002",   # boolean-default-value-positional-argument
+    "FIX002",   # line-contains-todo
+    "INP001",   # implicit-namespace-package
+    "ISC001",   # single-line-implicit-string-concatenation
+    "ISC002",   # multi-line-implicit-string-concatenation
+    "N806",     # non-lowercase-variable-in-function
+    "PLR2004",  # magic-value-comparison
+    "PLW2901",  # redefined-loop-name
+    "Q000",     # bad-quotes-inline-string
+    "Q001",     # bad-quotes-multiline-string
+    "Q002",     # bad-quotes-docstring
+    "Q003",     # avoidable-escaped-quote
+    "TD",       # flake8-todos
+    "W191",     # tab-indentation
+]
+
+[tool.ruff.lint.per-file-ignores]
+"*test*.py" = [
+    "ARG001",   # unused-function-argument
+    "B023",     # function-uses-loop-variable
+    "PLW0603",  # global-statement
+    "S101",     # assert
+    "T201",     # print
+    "TID252",   # relative-imports
+]
+
+"scripts/*.py" = [
+    "T201",     # print
+]

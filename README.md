@@ -1,2 +1,3 @@
-# sloth-bytes-weekly-challenges
-Solutions to the weekly challenges from the Sloth Bytes newsletter.
+# Sloth Bytes Weekly Challenges
+
+Solutions to the weekly challenges from the [Sloth Bytes newsletter](https://slothbytes.beehiiv.com/).
