@@ -3,7 +3,7 @@ import timeit
 from ast import literal_eval
 from pathlib import Path
 
-from main import fact_of_fact
+from main import next_letters
 
 
 def run_tests(test_cases_file, func, iterations=10_000) -> None:
@@ -26,4 +26,4 @@ def run_tests(test_cases_file, func, iterations=10_000) -> None:
 
 
 if __name__ == "__main__":
-    run_tests("tests.json", fact_of_fact)
+    run_tests("tests.json", next_letters)

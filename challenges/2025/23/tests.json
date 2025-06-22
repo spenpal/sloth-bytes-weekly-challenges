@@ -1,0 +1,22 @@
+[
+    {
+        "input": "('A',)",
+        "expected": "'B'"
+    },
+    {
+        "input": "('ABC',)",
+        "expected": "'ABD'"
+    },
+    {
+        "input": "('Z',)",
+        "expected": "'AA'"
+    },
+    {
+        "input": "('CAZ',)",
+        "expected": "'CBA'"
+    },
+    {
+        "input": "('',)",
+        "expected": "'A'"
+    }
+]
