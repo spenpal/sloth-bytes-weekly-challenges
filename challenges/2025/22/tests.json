@@ -1,0 +1,14 @@
+[
+    {
+        "input": "('32GB',)",
+        "expected": "'29.76GB'"
+    },
+    {
+        "input": "('2GB',)",
+        "expected": "'1.86GB'"
+    },
+    {
+        "input": "('512MB',)",
+        "expected": "'476MB'"
+    }
+]
