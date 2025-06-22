@@ -1,0 +1,14 @@
+[
+    {
+        "input": "('PC Files: spotifysetup.exe, virus.exe, dog.jpg',)",
+        "expected": "'PC Files: spotifysetup.exe, dog.jpg'"
+    },
+    {
+        "input": "('PC Files: antivirus.exe, cat.pdf, lethalmalware.exe, dangerousvirus.exe',)",
+        "expected": "'PC Files: antivirus.exe, cat.pdf'"
+    },
+    {
+        "input": "('PC Files: notvirus.exe, funnycat.gif',)",
+        "expected": "'PC Files: notvirus.exe, funnycat.gif'"
+    }
+]
