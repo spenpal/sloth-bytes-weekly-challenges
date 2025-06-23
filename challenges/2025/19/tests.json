@@ -1,0 +1,18 @@
+[
+    {
+        "input": "('What went wrong?????????',)",
+        "expected": "'What went wrong?'"
+    },
+    {
+        "input": "('Oh my goodness!!!',)",
+        "expected": "'Oh my goodness!'"
+    },
+    {
+        "input": "('I just!!! can!!! not!!! believe!!! it!!!',)",
+        "expected": "'I just!!! can!!! not!!! believe!!! it!'"
+    },
+    {
+        "input": "('Oh my goodness!',)",
+        "expected": "'Oh my goodness!'"
+    }
+]
