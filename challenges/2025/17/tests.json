@@ -1,0 +1,18 @@
+[
+    {
+        "input": "('she sells sea shells by the sea', 10)",
+        "expected": "['she sells', 'sea shells', 'by the sea']"
+    },
+    {
+        "input": "('the mouse jumped over the cheese', 7)",
+        "expected": "['the', 'mouse', 'jumped', 'over', 'the', 'cheese']"
+    },
+    {
+        "input": "('fairy dust coated the air', 20)",
+        "expected": "['fairy dust coated', 'the air']"
+    },
+    {
+        "input": "('a b c d e', 2)",
+        "expected": "['a', 'b', 'c', 'd', 'e']"
+    }
+]
