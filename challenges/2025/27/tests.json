@@ -1,0 +1,18 @@
+[
+    {
+        "input": "(1,)",
+        "expected": "0"
+    },
+    {
+        "input": "(10,)",
+        "expected": "9"
+    },
+    {
+        "input": "(100,)",
+        "expected": "189"
+    },
+    {
+        "input": "(2020,)",
+        "expected": "6969"
+    }
+]
